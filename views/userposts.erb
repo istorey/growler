@@ -1,0 +1,14 @@
+<h2> <%= @username.capitalize %>'s Posts  </h2>
+
+
+<div>
+<ul>
+ 
+	<% @user_posts.each do |post| %>
+		<li><%= post.body %></li>
+
+	<% end %>
+
+
+</ul>
+</div>
