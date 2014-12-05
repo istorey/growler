@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS posts;
 
 CREATE TABLE users (
 	id SERIAL PRIMARY KEY,
-	user_name TEXT NOT NULL UNIQUE,
+	user_name TEXT NOT NULL UNIQUE
  );
 
 CREATE TABLE posts (
